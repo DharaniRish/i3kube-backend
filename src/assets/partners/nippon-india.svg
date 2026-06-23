@@ -1,0 +1,7 @@
+<svg width="220" height="96" viewBox="0 0 220 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="96" rx="24" fill="#991B1B"/>
+  <path d="M22 48C22 33.641 33.641 22 48 22C62.359 22 74 33.641 74 48C74 62.359 62.359 74 48 74C33.641 74 22 62.359 22 48Z" fill="#F87171"/>
+  <path d="M48 28L52.408 42.592L67 47L52.408 51.408L48 66L43.592 51.408L29 47L43.592 42.592L48 28Z" fill="white"/>
+  <text x="86" y="43" fill="white" font-family="Poppins, sans-serif" font-size="18" font-weight="700">Nippon</text>
+  <text x="86" y="66" fill="#FECACA" font-family="Inter, sans-serif" font-size="16" font-weight="600">India</text>
+</svg>

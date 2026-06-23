@@ -1,0 +1,7 @@
+<svg width="220" height="96" viewBox="0 0 220 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="96" rx="24" fill="#7C2D12"/>
+  <circle cx="48" cy="48" r="24" fill="#F59E0B"/>
+  <circle cx="48" cy="48" r="11" fill="#7C2D12"/>
+  <text x="84" y="44" fill="white" font-family="Poppins, sans-serif" font-size="20" font-weight="700">ICICI</text>
+  <text x="84" y="66" fill="#FDE68A" font-family="Inter, sans-serif" font-size="16" font-weight="600">Prudential</text>
+</svg>

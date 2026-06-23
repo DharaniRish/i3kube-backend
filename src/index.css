@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #003366;
+  --color-secondary: #005aa7;
+  --color-accent: #d4af37;
+  --color-bg: #f7f9fc;
+  --color-text: #0b1f33;
+  --color-muted: #5b6b7d;
+  --shadow-soft: 0 30px 90px -44px rgba(0, 51, 102, 0.34);
+  --shadow-card: 0 22px 55px -32px rgba(11, 31, 51, 0.22);
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+}
+
+@utility section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+@utility glass-card {
+  @apply rounded-[2rem] border border-slate-200/70 bg-white shadow-[var(--shadow-soft)] backdrop-blur-xl;
+}
+
+@utility elevated-card {
+  @apply rounded-[1.75rem] border border-slate-200/70 bg-white shadow-[var(--shadow-card)] transition duration-300;
+}
+
+@utility section-space {
+  @apply py-18 sm:py-22 lg:py-28;
+}
+
+@utility label-chip {
+  @apply inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-slate-600 shadow-sm;
+}
+
+@utility text-display {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(212, 175, 55, 0.18), transparent 30%),
+    radial-gradient(circle at top right, rgba(0, 90, 167, 0.1), transparent 25%),
+    linear-gradient(180deg, #ffffff 0%, var(--color-bg) 58%, #edf2f7 100%);
+  color: var(--color-text);
+  font-family: "Inter", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(11, 60, 93, 0.14);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+  background-size: 120px 120px;
+  mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0.7), transparent 95%);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 51, 102, 0.08), transparent 18%),
+    radial-gradient(circle at 85% 18%, rgba(0, 90, 167, 0.06), transparent 18%),
+    radial-gradient(circle at 50% 80%, rgba(212, 175, 55, 0.08), transparent 20%);
+}
+
+.mesh-orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(40px);
+  opacity: 0.55;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(11, 60, 93, 0.25) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary) !important;
+}
+
+.finance-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.finance-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(100, 116, 139, 0.35);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.photo-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(11, 31, 51, 0.06), rgba(11, 31, 51, 0.48));
+}

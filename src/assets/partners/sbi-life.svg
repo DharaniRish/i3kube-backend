@@ -1,0 +1,7 @@
+<svg width="220" height="96" viewBox="0 0 220 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="96" rx="24" fill="#0F766E"/>
+  <circle cx="48" cy="48" r="22" fill="#E2E8F0"/>
+  <circle cx="48" cy="48" r="8" fill="#0F766E"/>
+  <text x="84" y="43" fill="white" font-family="Poppins, sans-serif" font-size="22" font-weight="700">SBI</text>
+  <text x="84" y="64" fill="#CCFBF1" font-family="Inter, sans-serif" font-size="16" font-weight="600">Life</text>
+</svg>
